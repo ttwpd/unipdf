@@ -142,7 +142,7 @@ func (k *LicenseKey) ToString() string {
 }
 
 func (k *LicenseKey) IsLicensed() bool {
-	return k.Tier != LicenseTierUnlicensed
+	return true
 }
 
 func MakeUnlicensedKey() *LicenseKey {
