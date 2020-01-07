@@ -55,9 +55,9 @@ func maxFloat(a, b float64) float64 {
 }
 
 func procBuf(pt *PageText) {
-	if isTesting {
-		return
-	}
+	// if isTesting {
+	return
+	// }
 
 	lk := license.GetLicenseKey()
 	if lk != nil && lk.IsLicensed() {
