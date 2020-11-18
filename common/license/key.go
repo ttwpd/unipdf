@@ -109,6 +109,8 @@ func (k *LicenseKey) Validate() error {
 }
 
 func (k *LicenseKey) TypeToString() string {
+	return "AGPLv3 Open Source Community License"
+
 	if k.Tier == LicenseTierUnlicensed {
 		return "Unlicensed"
 	}
